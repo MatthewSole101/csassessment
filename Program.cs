@@ -6,13 +6,12 @@ namespace ooppract
     {
         class game
         {
-            private String name;
-            private int age;
+           
 
             
             class Die
             {
-                private int[] _Rolls = { 1, 2, 3, 4, 5, 6 };
+               
                 private int _Roll;
 
                 // rand.Next(5);
@@ -29,7 +28,7 @@ namespace ooppract
                     int num = this.Rolls;
                     Random rand = new Random();
 
-                    num = rand.Next(1, 6);
+                    num = rand.Next(1, 7);
                     this.Rolls = num;
 
                     return  num;
@@ -38,24 +37,28 @@ namespace ooppract
               
 
 
-                // static void Rolling
-                // {
-                //     get { return _Roll; }
-                //     set { _Roll = rand.Next(1, 6); }
-                //     // Roll.SetValue(rand.Next(5));
-                //     // Roll = rand.Next(5);
-                //     // Roll = Num + 1;
-                //     // return Roll;
-                // }
+               
             }
 
             public static void Main(string[] args)
             {
 
                 Die Die1 = new Die();
+                Die Die2 = new Die();
+                Die Die3 = new Die();
 
                 int roll1 = Die1.Roll();
-                Console.WriteLine(roll1);
+                int roll2 = Die1.Roll();
+                int roll3 = Die1.Roll();
+                
+                Console.WriteLine("Die 1: " + roll1);
+                Console.WriteLine("Die 2: " + roll2);
+                Console.WriteLine("Die 3: " + roll3);
+
+                int rolltotal = roll1 + roll2 + roll3;
+                
+
+                Console.WriteLine(rolltotal);
                 
             }
         }
