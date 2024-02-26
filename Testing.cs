@@ -2,7 +2,7 @@
 {
     public class Testing
     {
-         Game game = new Game();
-        
+         Game gm = new Game();
+         
     }
 }

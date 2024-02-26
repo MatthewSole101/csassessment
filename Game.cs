@@ -18,9 +18,8 @@ namespace ConsoleApplication3
             List<int> RollList = new List<int>();
             // RollList.Add(Die1.Roll());
             // RollList.Add(Die1.Roll());
-            for (int i = 0; i <= 3; i++)
+            for (int i = 0; i <= 2; i++)
             {
-                Console.WriteLine(Die1.Roll(i));
                 RollList.Add(Die1.Roll(i));
 
             }
@@ -29,14 +28,10 @@ namespace ConsoleApplication3
             int Roll3 = RollList[2];
             
 
-            // int roll1 = Die1.Roll();
-            // int roll2 = Die2.Roll();
-            // int roll3 = Die3.Roll();
-            //     
-            // Console.WriteLine("Die 1: " + roll1);
-            // Console.WriteLine("Die 2: " + roll2);
-            // Console.WriteLine("Die 3: " + roll3);
-            //
+            Console.WriteLine("Die 1: " + Roll1);
+            Console.WriteLine("Die 2: " + Roll2);
+            Console.WriteLine("Die 3: " + Roll3);
+
             int rolltotal = Roll1 + Roll2 + Roll3;
                 
 
