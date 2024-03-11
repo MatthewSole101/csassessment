@@ -1,0 +1,7 @@
+D:\C#\Network_Traffic_data\Network_Traffic_data\bin\Debug\Network_Traffic_data.exe
+D:\C#\Network_Traffic_data\Network_Traffic_data\bin\Debug\Network_Traffic_data.pdb
+D:\C#\Network_Traffic_data\Network_Traffic_data\obj\Debug\Network_Traffic_data.csproj.AssemblyReference.cache
+D:\C#\Network_Traffic_data\Network_Traffic_data\obj\Debug\Network_Traffic_data.csproj.SuggestedBindingRedirects.cache
+D:\C#\Network_Traffic_data\Network_Traffic_data\obj\Debug\Network_Traffic_data.csproj.CoreCompileInputs.cache
+D:\C#\Network_Traffic_data\Network_Traffic_data\obj\Debug\Network_Traffic_data.exe
+D:\C#\Network_Traffic_data\Network_Traffic_data\obj\Debug\Network_Traffic_data.pdb
