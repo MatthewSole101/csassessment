@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Network_Traffic_data.Properties
 {
-    public class Array2
+    public class Array3
     {
         public int look( int Sort = 0)
         {
@@ -12,7 +12,7 @@ namespace Network_Traffic_data.Properties
             int count1 = 0;
             int[] array1 = new int[256];
 
-            StreamReader reader = new StreamReader("12934778.txt");
+            StreamReader reader = new StreamReader("12934780.txt");
             
             int line = 0;
             
@@ -70,9 +70,7 @@ namespace Network_Traffic_data.Properties
 
             return 0;
         }
+        
     }
 }
-
-
-
 

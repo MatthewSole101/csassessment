@@ -11,6 +11,9 @@ namespace Network_Traffic_data
             
             int count1 = 0;
             Array1 a1 = new Array1();
+            Array2 a2 = new Array2();
+            Array3 a3 = new Array3();
+
             
             Console.WriteLine("What array do you want to choose?: ");
             int userChoice = Convert.ToInt32(Console.ReadLine());
@@ -23,6 +26,15 @@ namespace Network_Traffic_data
             if (userChoice == 1)
             {
                 a1.look(userOrder);
+            }
+
+            if (userChoice == 2)
+            {
+                a2.look(userOrder);
+            }
+            if (userChoice == 3)
+            {
+                a3.look(userOrder);
             }
                 
             
